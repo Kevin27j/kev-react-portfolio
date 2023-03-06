@@ -1,0 +1,11 @@
+.projects {
+} 
+
+.projects-title {
+    border-bottom: 2px solid #a8c0a78f;
+    margin-bottom: 50px;
+}
+
+.projects-container:last-child {
+    margin-bottom: 50px;
+}

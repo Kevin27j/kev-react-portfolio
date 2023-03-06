@@ -9,9 +9,9 @@ import Button from 'react-bootstrap/Button';
 
 function Header() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Kev//Dev</Navbar.Brand>
+        <Navbar.Brand href="#/">Kev//Dev</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" variant="tabs" defaultActiveKey="/home">
@@ -28,7 +28,7 @@ function Header() {
             </Nav.Link>
             <Nav.Link href="#projects">
               <NavLink
-                to="about"
+                to="projects"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
@@ -38,7 +38,7 @@ function Header() {
             </Nav.Link>
             <Nav.Link href="#contact">
               <NavLink
-                to="blog"
+                to="contact"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }

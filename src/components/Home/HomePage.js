@@ -11,7 +11,7 @@ function Home(props) {
                 <img className="profile-avatar" src={avatar} alt="avatar" />
                 <div className="profile-statement">
                     <h1>H3LL0 FR13ND</h1>
-                    <h6>I'm Kejvin Pashaj</h6>
+                    <h3>I'm Kejvin</h3>
                     <p>Enthusiastic junior web developer learning how to build websites and webapps</p>
                 </div>
             </Container>
