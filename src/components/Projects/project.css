@@ -1,5 +1,11 @@
 .card {
     border: 3px solid #a8c0a78f;
-    min-height: 300px;
+    min-height: 350px;
     margin: 20px 0;
+}
+
+@media screen and (min-width: 992px){
+    .card .card-img-top {
+        max-height: 180px;
+    }    
 }

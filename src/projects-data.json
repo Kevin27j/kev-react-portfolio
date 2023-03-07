@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Weather Dashboard App",
         "info": "A Weather Dashboard App that displays the current weather and 5 day forecast",
-        "image": "",
+        "image": "./project-images/weather-dash.png",
         "github": "https://github.com/Kevin27j/weather-dashboard-app",
         "deployed": "https://kevin27j.github.io/weather-dashboard-app/"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Password Generator",
         "info": "A password Generator App that allows to generate any random password",
-        "image": "",
+        "image": "./project-images/password-gen.png",
         "github": "https://github.com/Kevin27j/password-generator",
         "deployed": "https://kevin27j.github.io/password-generator/"
 
@@ -20,7 +20,7 @@
         "id": 3,
         "name": "Daily Planner App",
         "info": "This application is a calendar layout that allows the user to create and save events ",
-        "image": "",
+        "image": "./project-images/daily-planner.png",
         "github": "https://github.com/Kevin27j/daily-planner-app",
         "deployed": "https://kevin27j.github.io/daily-planner-app/"
 
@@ -29,7 +29,7 @@
         "id": 4,
         "name": "Order Summary Card",
         "info": "This is a solution to the Order summary component challenge on Frontend Mentor",
-        "image": "",
+        "image": "./project-images/order-summary.jpg",
         "github": "https://github.com/Kevin27j/Order-summary-component",
         "deployed": "https://kevin27j.github.io/Order-summary-component/"
 
@@ -38,7 +38,7 @@
         "id": 5,
         "name": "Interactive Rating Component",
         "info": "This is a solution to the Interactive rating component challenge on Frontend Mentor.",
-        "image": "",
+        "image": "./project-images/rating-comp-screen.png",
         "github": "https://github.com/Kevin27j/interactive-rating-component",
         "deployed": "https://kevin27j.github.io/interactive-rating-component/"
 
@@ -47,7 +47,7 @@
         "id": 6,
         "name": "Ping coming soon page",
         "info": "This is a solution to the Ping single column coming soon page challenge on Frontend Mentor",
-        "image": "",
+        "image": "./project-images/ping-page.png",
         "github": "https://github.com/Kevin27j/Ping-single-column-coming-soon-page",
         "deployed": "https://kevin27j.github.io/Ping-single-column-coming-soon-page/"
 

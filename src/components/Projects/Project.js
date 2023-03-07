@@ -5,17 +5,18 @@ import Card from 'react-bootstrap/Card';
 function Project(props) {
     return (
         <Card>
-            <Card.Img variant="top" src={props.image} />
+            <Card.Img variant="top" src={props.image}/>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>
                     {props.info}
-                    {props.github}
-                    {props.deployed}
+                    <div className="project-links">
+                        <a href={props.github}>Github</a>
+                        <a href={props.deployed}>Deployed</a>
+                    </div>
                 </Card.Text>
             </Card.Body>
         </Card>
-
     )
 }
 

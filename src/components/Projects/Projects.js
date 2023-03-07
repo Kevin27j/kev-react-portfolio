@@ -14,9 +14,10 @@ function Projects() {
                 <h1 className="projects-title">Projects</h1>
                 <div className="projects-container">
                     <Row xs={1} md={1} lg={3} className="g-4">
-                        {projectData.map((data) => (
+                        {projectData.map((data, i) => (
                             <Col>
                                 <Project
+                                    key={i}
                                     name={data.name}
                                     info={data.info}
                                     image={data.image}
