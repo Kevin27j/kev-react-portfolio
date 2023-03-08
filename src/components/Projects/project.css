@@ -4,8 +4,53 @@
     margin: 20px 0;
 }
 
+.card-body {
+    background-color: #a8c0a78f;
+    color: #3f3f3faa;
+    font-size: 1.2rem;
+    border-radius: 0 0 10px 10px;
+    padding: 50px 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+}
+
+.project-links {
+    margin: 8px 0;
+}
+
+/* Use :after combined with :hover to create underline animation when hover on links */
+/* Code taken from Bootstrap-Portfolio from my profile */
+.project-links a {
+    color: #3f3f3faa;
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+}
+
+.project-links a:hover {
+    color: #3f3f3faa;
+}
+
+.project-links a:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 1px;
+    right: 0;
+    background: #f2f2f2;
+    transition: width .2s ease;
+}
+
+.project-links a:hover:after {
+    width: 100%;
+    left: 0;
+    background: #f2f2f2;
+}
+
+/* Keep image card container height equal for each card on bigger screens */
 @media screen and (min-width: 992px){
     .card .card-img-top {
-        max-height: 180px;
+        height: 200px;
     }    
 }
