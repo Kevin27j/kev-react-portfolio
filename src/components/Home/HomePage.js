@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import avatar from '../../assets/ebf58acd35044d75e3e5827aaade058c.jpeg'
 
 
-function Home(props) {
+function Home() {
     return (
         <div className="homepage">
             <Container>

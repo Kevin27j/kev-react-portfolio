@@ -1,10 +1,7 @@
 import React from "react";
 import "./ContactPage.css";
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+import DownloadResume from "../../DownloadResume";
+import { Container, Col, Row, Button, Form } from 'react-bootstrap';
 import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedinIn, FaEnvelope, FaBriefcase } from "react-icons/fa";
 
@@ -43,7 +40,7 @@ function ContactPage() {
                                     <IconContext.Provider value={{ size: "2em" }}>
                                         <FaGithub />
                                     </IconContext.Provider>
-                                    <a href="https://github.com/Kevin27j" target={"_blank"} className="contact-link">
+                                    <a href="https://github.com/Kevin27j" target={"_blank"} rel="noreferrer" className="contact-link">
                                         <h4>Github</h4>
                                     </a>
                                 </div>
@@ -56,7 +53,7 @@ function ContactPage() {
                                             <FaLinkedinIn />
                                         </div>
                                     </IconContext.Provider>
-                                    <a href="https://www.linkedin.com/in/kejvin-pashaj-672023218/" target={"_blank"} className="contact-link">
+                                    <a href="https://www.linkedin.com/in/kejvin-pashaj-672023218/" target={"_blank"} rel="noreferrer" className="contact-link">
                                         <h4>Linkedin</h4>
                                     </a>
                                 </div>
@@ -69,7 +66,7 @@ function ContactPage() {
                                             <FaEnvelope />
                                         </div>
                                     </IconContext.Provider>
-                                    <a href="mailto:kevin.952011@gmail.com" target={"_blank"} className="contact-link">
+                                    <a href="mailto:kevin.952011@gmail.com" target={"_blank"} rel="noreferrer" className="contact-link">
                                         <h4>Email</h4>
                                     </a>
                                 </div>
@@ -82,7 +79,7 @@ function ContactPage() {
                                             <FaBriefcase />
                                         </div>
                                     </IconContext.Provider>
-                                    <a href="/" className="contact-link">
+                                    <a onClick={DownloadResume} className="contact-link">
                                         <h4>Resume</h4>
                                     </a>
                                 </div>
