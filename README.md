@@ -14,15 +14,16 @@ This is my single-page React built portfolio. Here I will share some of my proje
   - [Built with](#built-with)
   - [Installation](#installation)
   - [License](#license)
+  - [Links](#links)
   - [Author](#author)
 
 ## Screenshots
 
 ![Home Desktop](src/screenshots/home-page-des.png)
-![Home Mobile](src/screenshots/home-page-mob.png)
 ![Projects Desktop](src/screenshots/projects-page-des.png)
-![Projects Mobile](src/screenshots/projects-page-mob.png)
 ![Contact Desktop](src/screenshots/contact-page-des.png)
+![Home Mobile](src/screenshots/home-page-mob.png)
+![Projects Mobile](src/screenshots/projects-page-mob.png)
 ![Contact Mobile](src/screenshots/contact-page-mob.png)
 
 ## Built with
@@ -43,6 +44,11 @@ npm install
 ## License
 
 This project is licensed under the MIT license
+
+## Links
+
+[Github](https://github.com/Kevin27j/kev-react-portfolio)
+[Live Site](https://kevin27j.github.io/kev-react-portfolio/)
 
 ## Author
 
