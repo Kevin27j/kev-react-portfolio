@@ -5,14 +5,19 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-
+import { IconContext } from "react-icons";
+import { FaStream } from "react-icons/fa";
 
 function Header() {
   return (
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#/">Kev//Dev</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <IconContext.Provider value={{ size: "1.5em" }}>
+              <FaStream />
+          </IconContext.Provider>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" variant="tabs" defaultActiveKey="/home">
             <Nav.Link href="#home">
