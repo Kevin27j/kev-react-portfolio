@@ -9,6 +9,16 @@ import { IconContext } from "react-icons";
 import { FaStream } from "react-icons/fa";
 
 function Header() {
+
+const downloadResume = () => {
+  const link = document.createElement('a');
+  link.href = "/src/assets/CV-Kev-2022.pdf"; // replace with the actual file path
+  link.setAttribute('download', 'CV-Kev-2022.pdf'); // set the file name for download
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
   return (
     <Navbar expand="lg">
       <Container>
@@ -52,7 +62,7 @@ function Header() {
               </NavLink>
             </Nav.Link>
           </Nav>
-          <Button variant="outline-success" href="#">Resume</Button>
+          <Button variant="outline-success" onClick={downloadResume}>Resume</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
