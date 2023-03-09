@@ -10,9 +10,11 @@ function Home(props) {
             <Container>
                 <img className="profile-avatar" src={avatar} alt="avatar" />
                 <div className="profile-statement">
-                    <h1>H3LL0 FR13ND</h1>
-                    <h3>I'm Kejvin</h3>
-                    <p>Enthusiastic junior web developer learning how to build websites and webapps</p>
+                    <h1 className="title">H3LL0 FR13ND</h1>
+                    <div className="sub-statement">
+                        <h3>I'm Kejvin</h3>
+                        <p>Enthusiastic junior web developer learning how to build websites and webapps</p>
+                    </div>
                 </div>
             </Container>
         </div>

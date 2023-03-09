@@ -17,9 +17,19 @@
     color: #3f3f3faa;
     font-size: 1.2rem;
     border-radius: 10px;
-    padding: 50px 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;}
+    padding: 100px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
 
 .profile-statement h1 {
     color: #222222d4;
+}
+
+.sub-statement {
+    background-color: #a8c0a7ad;
+    border-radius: 10px;
+    padding: 50px;
+    max-width: fit-content;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px
 }
