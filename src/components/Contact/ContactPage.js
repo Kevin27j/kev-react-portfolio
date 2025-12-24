@@ -53,7 +53,7 @@ function ContactPage() {
                                             <FaLinkedinIn />
                                         </div>
                                     </IconContext.Provider>
-                                    <a href="https://www.linkedin.com/in/kejvin-pashaj-672023218/" target={"_blank"} rel="noreferrer" className="contact-link">
+                                    <a href="https://www.linkedin.com/in/kevin27j/" target={"_blank"} rel="noreferrer" className="contact-link">
                                         <h4>Linkedin</h4>
                                     </a>
                                 </div>
