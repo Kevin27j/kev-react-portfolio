@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./header.css";
 import DownloadResume from "../../DownloadResume";
 import { NavLink } from "react-router-dom";
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';

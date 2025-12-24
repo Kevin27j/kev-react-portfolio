@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css"
+import "./projects.css"
 import { Container, Col, Row } from 'react-bootstrap';
 
 import Project from "./Project";

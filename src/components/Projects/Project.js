@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project.css"
+import "./project.css"
 import Card from 'react-bootstrap/Card';
 
 function Project(props) {

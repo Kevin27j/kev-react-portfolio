@@ -41,6 +41,12 @@ To install necessary dependencies, run the following command:
 npm install
 ```
 
+To run locally
+
+```
+npm start
+```
+
 ## License
 
 This project is licensed under the MIT license
